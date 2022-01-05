@@ -1,4 +1,4 @@
-package TypeData;
+package Condition;
 
 public class Comparation {
     public static void main(String[] args) {

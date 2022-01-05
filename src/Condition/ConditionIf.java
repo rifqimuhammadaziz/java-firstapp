@@ -1,6 +1,6 @@
-package TypeData;
+package Condition;
 
-public class Condition {
+public class ConditionIf {
     public static void main(String[] args) {
         var absen = 70;
         var nilaiAkhir = 90;

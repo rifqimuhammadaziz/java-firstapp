@@ -1,4 +1,4 @@
-package TypeData;
+package Condition;
 
 public class BooleanOperation {
     public static void main(String[] args) {

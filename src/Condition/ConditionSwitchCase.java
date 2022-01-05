@@ -26,5 +26,19 @@ public class ConditionSwitchCase {
                 System.out.println("Anda salah jurusan!");
             }
         }
+
+
+        // switch yield (java 14++)
+        var pesan = switch (nilai) {
+            case "A":
+                yield "Nilai Anda Sangat Baik!";
+            case "B", "C":
+                yield "Nilai Anda Baik dan Cukup";
+            case "D":
+                yield "Nilai Anda D";
+            default:
+                yield "Anda salah jurusan!";
+        };
+        System.out.println(pesan);
     }
 }

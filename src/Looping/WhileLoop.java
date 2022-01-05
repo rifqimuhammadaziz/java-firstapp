@@ -1,9 +1,11 @@
 package Looping;
 
-public class ForLoop {
+public class WhileLoop {
     public static void main(String[] args) {
-        for(var counter = 1; counter <= 10; counter++) {
+        var counter = 1;
+        while (counter <= 10) {
             System.out.println("Loop " + counter);
+            counter++;
         }
     }
 }
